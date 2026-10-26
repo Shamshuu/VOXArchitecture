@@ -160,11 +160,3 @@ CREATE VIRTUAL TABLE fts_chunks USING fts5(
     tokenize = 'porter unicode61'
 );
 ```
-
----
-
-## 🧪 Running Tests
-
-```bash
-pytest -v tests/
-```
